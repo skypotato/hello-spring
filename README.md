@@ -8,6 +8,15 @@
 ### 라이브러리 살펴보기
 ### View 환경설정
 ### 빌드하고 실행하기
+빌드는 프로젝트 경로로 이동 후 Mac의 경우 아래와 같은 명령어를 실행하면 빌드되며 ./build 디렉토리가 생성된다.
 ~~~shell
 ./gradlew build
+~~~
+빌드가 정상적으로 안될 경우 아래와 같은 명렁어를 작성한다. 이 경우 기존의 ./build 디렉토리가 삭제된 후 새롭게 빌드하게된다.
+~~~shell
+./gradlew clean build
+~~~
+./hello-spring/build/libs 로 이동하여 아래 명령어를 작성하고 localhost:8080으로 접속하면 프로젝트가 실행되는 것을 볼 수 있다.
+~~~shell
+java -jar hello-spring-0.0.1-SNAPSHOT.jar
 ~~~
