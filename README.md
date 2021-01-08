@@ -20,3 +20,5 @@
 ~~~shell
 java -jar hello-spring-0.0.1-SNAPSHOT.jar
 ~~~
+### 회원관리 예제
+- 비즈니스 요구사항
