@@ -32,7 +32,7 @@ public class HelloController {
     public Hello helloApi(@RequestParam String name){
         Hello hello = new Hello();
         hello.setName(name);
-        return hello;
+        return hello; // 객체를 ResponseBody에 담아 반환하는 경우 기본적으로 JSON 데이터 형태로 반환된다.
     }
 
     static class Hello{
