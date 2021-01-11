@@ -36,7 +36,7 @@ public class MemberService {
      *
      * @return
      */
-    private List<Member> findMembers() {
+    public List<Member> findMembers() {
         return memberRepository.findAll();
     }
 
@@ -45,7 +45,7 @@ public class MemberService {
      * @param memberId
      * @return
      */
-    private Optional<Member> findOne(Long memberId){
+    public Optional<Member> findOne(Long memberId){
         return memberRepository.findById(memberId);
     }
 }
