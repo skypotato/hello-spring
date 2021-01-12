@@ -26,3 +26,4 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 - 회원 리포지토리 테스트 케이스 작성
 - 회원 서비스 개발
 - 회원 서비스 
+Junit으로 테스트 코드 작성해보기
