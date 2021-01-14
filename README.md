@@ -33,3 +33,4 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 - 자바 코드로 직접 스프링 빈 등록하기
 
 Junit으로 테스트 코드 작성해보기
+Boot 시작
