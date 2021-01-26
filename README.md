@@ -39,5 +39,5 @@ java -jar hello-spring-0.0.1-SNAPSHOT.jar
 
 Junit으로 테스트 코드 작성해보기
 Boot 시작
-프로젝트 imports 
+프로젝트 imports 공부
 강의목록
